@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactAgenda", "ContactAgenda\ContactAgenda.csproj", "{8F55405D-6D6F-4809-8BF1-04E967729A9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormContact", "FormContact\FormContact.csproj", "{E23E9791-5D14-40FC-9AFD-BFA918F6D2DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F55405D-6D6F-4809-8BF1-04E967729A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F55405D-6D6F-4809-8BF1-04E967729A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F55405D-6D6F-4809-8BF1-04E967729A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F55405D-6D6F-4809-8BF1-04E967729A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E23E9791-5D14-40FC-9AFD-BFA918F6D2DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23E9791-5D14-40FC-9AFD-BFA918F6D2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E23E9791-5D14-40FC-9AFD-BFA918F6D2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E23E9791-5D14-40FC-9AFD-BFA918F6D2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06C0BFA0-3052-4652-8E77-68D87412E5FA}
+	EndGlobalSection
+EndGlobal

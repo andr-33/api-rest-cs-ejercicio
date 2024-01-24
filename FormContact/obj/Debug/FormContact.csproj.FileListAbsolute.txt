@@ -1,0 +1,10 @@
+C:\Users\Andreé\Desktop\Sistemas Distribuidos\Repaso SD\FormContact\bin\Debug\FormContact.exe.config
+C:\Users\Andreé\Desktop\Sistemas Distribuidos\Repaso SD\FormContact\bin\Debug\FormContact.exe
+C:\Users\Andreé\Desktop\Sistemas Distribuidos\Repaso SD\FormContact\bin\Debug\FormContact.pdb
+C:\Users\Andreé\Desktop\Sistemas Distribuidos\Repaso SD\FormContact\obj\Debug\FormContact.csproj.AssemblyReference.cache
+C:\Users\Andreé\Desktop\Sistemas Distribuidos\Repaso SD\FormContact\obj\Debug\FormContact.Form1.resources
+C:\Users\Andreé\Desktop\Sistemas Distribuidos\Repaso SD\FormContact\obj\Debug\FormContact.Properties.Resources.resources
+C:\Users\Andreé\Desktop\Sistemas Distribuidos\Repaso SD\FormContact\obj\Debug\FormContact.csproj.GenerateResource.cache
+C:\Users\Andreé\Desktop\Sistemas Distribuidos\Repaso SD\FormContact\obj\Debug\FormContact.csproj.CoreCompileInputs.cache
+C:\Users\Andreé\Desktop\Sistemas Distribuidos\Repaso SD\FormContact\obj\Debug\FormContact.exe
+C:\Users\Andreé\Desktop\Sistemas Distribuidos\Repaso SD\FormContact\obj\Debug\FormContact.pdb
