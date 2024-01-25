@@ -56,12 +56,10 @@ namespace FormContact
 
                     if (res.IsSuccessStatusCode)
                     {
-                       
                         MessageBox.Show("Contacto creado exitosamente", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     else
                     {
-                        
                         MessageBox.Show($"Error: {res.StatusCode}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
@@ -69,7 +67,6 @@ namespace FormContact
             }
             catch (Exception ex)
             {
-                // Manejar cualquier excepción
                 MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -79,11 +76,8 @@ namespace FormContact
             try
             {
                 string apiUrl = "https://localhost:44367/contact/getall";
-
            
                 List<Contact> contacts = await Task.Run(() => GetContactsAsync(apiUrl));
-
-         
                 dataGridView1.DataSource = contacts;
             }
             catch (Exception ex)
@@ -102,7 +96,6 @@ namespace FormContact
                 {
                     using (Stream responseStream = await response.Content.ReadAsStreamAsync())
                     {
-                        // Deserializar la respuesta a una lista de Contact
                         DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(List<Contact>));
                         List<Contact> contacts = (List<Contact>)serializer.ReadObject(responseStream);
                         return contacts;
@@ -110,7 +103,6 @@ namespace FormContact
                 }
                 else
                 {
-                    // Manejar el error si la solicitud no fue exitosa
                     throw new Exception($"Error: {response.StatusCode}");
                 }
             }
